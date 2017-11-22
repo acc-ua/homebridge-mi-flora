@@ -1,0 +1,25 @@
+{
+   "bridge":
+    {
+        "name": "Homebridge",
+        "username": "A0:00:00:E0:CE:30",
+        "port": 51888,
+        "pin": "111-11-011"
+    },
+
+"accessories": [
+    {
+      "accessory": "mi-flora",
+      "name": "Flower 1",
+      "deviceId": "C4:00:22:00:00:07", 
+      "interval": 300 
+    },
+    {
+      "accessory": "mi-flora",
+      "name": "Flower 2",
+      "deviceId": "00:00:00:00:00:CB", 
+      "interval": 300 
+    }
+  ]
+}
+
