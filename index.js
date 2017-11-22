@@ -25,8 +25,8 @@ function MiFloraPlugin(log, config) {
     this.setUpServices();
 
 
-    this.flora = new MiFlora();
-
+    this.flora = new MiFlora(this.deviceId);
+    
     this.storedData = {};
 
     this.flora.startScanning();
